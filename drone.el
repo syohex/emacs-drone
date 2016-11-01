@@ -43,5 +43,5 @@
   (let ((default-directory (drone-root)))
     (compilation-start (format "drone exec"))))
 
-;;; drone.el ends here
 (provide 'drone) 
+;;; drone.el ends here
