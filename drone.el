@@ -41,7 +41,7 @@
 (defun drone-exec ()
   (interactive)
   (let ((default-directory (drone-root)))
-    (compilation-start (format "drone exec"))))
+    (compilation-start "drone exec")))
 
 (provide 'drone) 
 ;;; drone.el ends here
